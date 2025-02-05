@@ -1,8 +1,8 @@
 {
   "basics": {
-    "name": "Juan David Peralta Fuentes",
+    "name": "Juan Peralta Fuentes",
     "label": "Backend Developer con más de 2 años de experiencia",
-    "image": "/117424457.jfif",
+    "image": "/117424457.webp",
     "email": "juandavidperaltafuentes@gmail.com",
     "phone": "+57 3152774623",
     "url": "https://midu.dev",
@@ -18,13 +18,9 @@
       {
         "network": "LinkedIn",
         "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "url": "https://www.linkedin.com/in/juan-david-peralta-fuentes-a7a944268/"
       },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
-      },
+
       {
         "network": "GitHub",
         "username": "midudev",
