@@ -6,12 +6,11 @@ import { projects } from "@cv"
 ---
 
 <Section title="Proyectos">
-  <ul>
+  
     {
       projects.map(
         ({ url, description, highlights, name, isActive, github }) => {
           return (
-            <li>
               <article>
                 <header>
                   <h3>
@@ -38,12 +37,11 @@ import { projects } from "@cv"
                   })}
                 </footer>
               </article>
-            </li>
           )
         }
       )
     }
-  </ul>
+  </>
 </Section>
 
 <style>
@@ -56,12 +54,13 @@ import { projects } from "@cv"
 
   article {
     border-radius: 8px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #545050;
     gap: 16px;
     display: flex;
     flex-direction: column;
     padding: 16px;
     height: 100%;
+    margin-bottom: 10px;
   }
 
   article header {
@@ -126,7 +125,7 @@ import { projects } from "@cv"
     }
   }
 
-  @media (width <= 700px) {
+  @media (width <= 70 0px) {
     ul {
       margin-inline: 0px;
     }
