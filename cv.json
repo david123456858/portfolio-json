@@ -17,14 +17,14 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
+        "username": "juan-david-peralta-fuentes",
         "url": "https://www.linkedin.com/in/juan-david-peralta-fuentes-a7a944268/"
       },
 
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "david123456858",
+        "url": "https://github.com/david123456858"
       }
     ]
   },
@@ -74,12 +74,12 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
+    "institution": "Universidad Popular del Cesar",
+    "url": "https://www.unicesar.edu.co/",
+    "area": "Ingeniero de sistemas",
     "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
+    "startDate": "2021-01-25",
+    "endDate": null,
     "score": "4.0",
     "courses": [
       "DB1101 - Basic SQL"
@@ -190,7 +190,7 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Basic"
     }
   ],
   "interests": [{
@@ -201,7 +201,7 @@
     ]
   }],
   "references": [{
-    "name": "Jane Doe",
+    "name": "Midu Dev",
     "reference": "Reference…"
   }],
   "projects": [

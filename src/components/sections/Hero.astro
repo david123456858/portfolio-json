@@ -129,10 +129,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 
   footer {
     color: #555;
-    font-size: 0.65rem;
+    font-size: 0.90rem;
     display: flex;
-    gap: 4px;
-    margin-top: 8px;
+    gap: 0.5px;
+    margin-top: 0.5px;
   }
 
   footer a {
@@ -146,12 +146,31 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     width: 32px;
     border-radius: 6px;
     transition: all 0.3s ease;
+
   }
 
   footer a:hover {
-    background: #eee;
     border: 1px solid #ddd;
+    transform: scale(1.1)
   }
+  footer a[href*="linkedin.com"]:hover{
+    background: #0077b5; 
+    color: white;
+  }
+
+  footer a[href*="mailto:"]:hover{
+    background:#d14836 ;
+    color: white;
+  }
+
+  footer a[href*="github.com"]:hover {
+    background: #333;
+    color: white;
+  }
+  footer a[href*="tel:"]:hover {
+  background: #34b233; /* Verde de llamadas (WhatsApp) */
+  color: white;
+}
 
   @media (width <= 700px) {
     .container {
