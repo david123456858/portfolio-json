@@ -206,68 +206,64 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "name": "Monitoreo financiero",
+      "isActive": false,
+      "description": "Sistema de monitoreo financiero y predicciones de series temporales para las diferentes indicadores, como tambien la posibilidad de invertir en acciones de la bolsa de valores simulando el comportamineto de estas.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Mira el mercado de acciones",
+        "Terminado",
+        "Analisis financiero"
       ],
-      "url": "https://mars.codes",
+      "url": "https://github.com/leowader/api-monitoreo-financiero",
+      "github": "https://github.com/leowader/api-monitoreo-financiero",
       "images":[""]
     },
     {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "name": "Finance Flow",
+      "isActive": false,
+      "description": "Software bancario que integra como característica la posibilidad de calcular sus prestamos ha realizar o en proceso, haciendo sus pagos de cada préstamo automáticamente.",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "Movil",
+        "Aplicacion Bancaria",
+        "Automatizacion"
       ],
-      "url": "https://adventjs.dev",
+      "url": "https://github.com/programadorisgod/software-bk",
+      "github": "https://github.com/programadorisgod/software-bk",
       "images":[""]
     },
     {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "name": "DevelopWork",
+      "isActive": false,
+      "description": "Software intuitivo para la gestión de órdenes de mantenimiento en empresas, permitiendo el control de usuarios, equipos y un historial detallado de las órdenes ejecutadas. Optimiza tiempos y recursos, mejorando la eficiencia operativa.",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "Optimización de tiempos y recursos",
+        "Gestión de órdenes",
+        "Mejora del rendimiento operativo"
       ],
-      "url": "https://codember.dev"
+      "url": "https://github.com/david123456858/develokWord_Backend",
+      "github":"https://github.com/david123456858/develokWord_Backend"
     },
     {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "name": "Redes Neuronales",
+      "isActive": false,
+      "description": "Aprendizaje supervisado de redes neuronales utilizando diferentes algoritmos de entrenamiento, el cual mediante graficas interactivas se evidencia en tiempo real el comportamiento de la red utilizando sockets.",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "Redes Neuronales Artificiales"
+        
       ],
       "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "github": "https://github.com/leowader/aprendizaje-supervisado-IA"
     },
     {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
+      "name": "Cajero automatico",
+      "isActive": false,
       "description": "Lista de pruebas técnicas de empresas para practicar programación",
       "highlights": [
         "100% gratuito",
         "+500 soluciones de la comunidad"
       ],
       "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "github": "https://github.com/david123456858/Cajero-Back  "
     }
   ]
 }

@@ -3,9 +3,10 @@ import { basics } from "@cv"
 import Section from "@/components/Section.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
-
 import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
+import Sol from "@/icons/Sol.astro"
+import Luna from "@/icons/Luna.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
@@ -16,6 +17,8 @@ const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn
 }
+
+
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
