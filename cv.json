@@ -6,6 +6,7 @@
     "email": "juandavidperaltafuentes@gmail.com",
     "phone": "+57 3152774623",
     "url": "https://midu.dev",
+    "cv":"",
     "summary": "Más de 2 años de experiencia como desarrollador backend. He trabajado en entornos en donde he asumido el liderazgo en pequeños grupos de desarrollo y he logrado cumplir con los objetivos propuestos, actualmente trabajando en proyectos personales para impulsar un poco más el conocimiento.",
     "location": {
       "address": "",
@@ -251,7 +252,7 @@
         "Redes Neuronales Artificiales"
         
       ],
-      "url": "https://codi.link",
+      "url": "https://github.com/leowader/aprendizaje-supervisado-IA",
       "github": "https://github.com/leowader/aprendizaje-supervisado-IA"
     },
     {
@@ -259,11 +260,11 @@
       "isActive": false,
       "description": "Lista de pruebas técnicas de empresas para practicar programación",
       "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
+        "Movil",
+        "Bancario "
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/david123456858/Cajero-Back  "
+      "url": "https://github.com/david123456858/Cajero-Back",
+      "github": "https://github.com/david123456858/Cajero-Back"
     }
   ]
 }
