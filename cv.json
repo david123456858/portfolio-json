@@ -258,7 +258,7 @@
     {
       "name": "Cajero automatico",
       "isActive": false,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "description": "Sistema funcional que replica el deber ser de un cajero real: autenticación con claves estáticas (PINs seguros) y dinámicas, gestión matricial de billetes para calcular combinaciones exactas, y base de datos relacional que actualiza inventarios transacciones en tiempo real. Interfaz fluida que emula el proceso físico de retiro de dinero, garantizando seguridad y eficacia en cada paso.",
       "highlights": [
         "Movil",
         "Bancario "

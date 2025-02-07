@@ -8,16 +8,16 @@ import GitHub from "@/icons/GitHub.astro"
 import Sol from "@/icons/Sol.astro"
 import Luna from "@/icons/Luna.astro"
 import WorldMap from "@/icons/WorldMap.astro"
-import Resume from "@/icons/resume.astro"
+import Resume2 from "@/icons/Resume2.astro"
 import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, phone, email, cv} = basics
+
+const { name, label, image, location, profiles, phone, email} = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub,
-  LinkedIn,
-  cv
+  LinkedIn
 }
 
 
@@ -25,7 +25,7 @@ const SOCIAL_ICONS: SocialIcon = {
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl,cv].filter(Boolean).join(" • ")
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 ---
 
 <Section>
@@ -65,18 +65,18 @@ const printInfo = [email, phone, linkedUrl,cv].filter(Boolean).join(" • ")
             </a>
           )
         }
-        <!-- {
+        {
           name && (
             <a 
-            href={`cv`}
+            href= "../../../public/CV Back_Junior.pdf"
             title={`Descargar el curriculum de ${name}`}
-            target="_blank"
+            download="CV Back_Junior.pdf"
             rel="noopener noreferrer"
             >
-              <Resume />
+              <Resume2 />
             </a>
           )
-        } -->
+        }
         {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network]
@@ -177,6 +177,10 @@ const printInfo = [email, phone, linkedUrl,cv].filter(Boolean).join(" • ")
 
   footer a[href*="mailto:"]:hover{
     background:#d14836 ;
+    color: white;
+  }
+  footer a[href*="CV Back_Junior.pdf"]:hover{
+    background: #4faadc; 
     color: white;
   }
 
