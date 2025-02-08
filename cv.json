@@ -217,7 +217,7 @@
       ],
       "url": "https://github.com/leowader/api-monitoreo-financiero",
       "github": "https://github.com/leowader/api-monitoreo-financiero",
-      "images":[""]
+      "images":["/117424457.webp","/117424457.webp"]
     },
     {
       "name": "Finance Flow",
@@ -230,7 +230,7 @@
       ],
       "url": "https://github.com/programadorisgod/software-bk",
       "github": "https://github.com/programadorisgod/software-bk",
-      "images":[""]
+      "images":["/117424457.webp","/117424457.webp"]
     },
     {
       "name": "DevelopWork",
@@ -261,7 +261,9 @@
       "description": "Sistema funcional que replica el deber ser de un cajero real: autenticación con claves estáticas (PINs seguros) y dinámicas, gestión matricial de billetes para calcular combinaciones exactas, y base de datos relacional que actualiza inventarios transacciones en tiempo real. Interfaz fluida que emula el proceso físico de retiro de dinero, garantizando seguridad y eficacia en cada paso.",
       "highlights": [
         "Movil",
-        "Bancario "
+        "Bancario",
+        "Base de datos relacional",
+        "Claves Dinamicas"
       ],
       "url": "https://github.com/david123456858/Cajero-Back",
       "github": "https://github.com/david123456858/Cajero-Back"
