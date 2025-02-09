@@ -9,7 +9,7 @@ import { projects } from "@cv"
   
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ url, description, highlights, name, isActive, github,images }) => {
           return (
               <article>
                 <header>
@@ -30,7 +30,10 @@ import { projects } from "@cv"
                     )}
                   </h3>
                   <p>{description}</p>
-                  <section> </section>
+                  <figure>
+                    {images?.map((img)=>{ 
+                    return <img src={img} alt={`Imagen del proyecto ${name}`} width="200" height="200"/>
+                  })}</figure> 
                 </header>
                 <footer>
                   {highlights.map((highlight) => {
@@ -53,7 +56,19 @@ import { projects } from "@cv"
     gap: 1rem;
     margin-inline: -16px;
   }
+  figure {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      gap: 10px;
+  }
 
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 200;
+    border-radius: 10;
+  }
   article {
     border-radius: 8px;
     border: 1.5px solid #000000;
