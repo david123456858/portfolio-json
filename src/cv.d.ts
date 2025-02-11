@@ -143,3 +143,5 @@ interface References {
 }
 
 type Highlight = Array<String>
+
+type images = Array<String>
