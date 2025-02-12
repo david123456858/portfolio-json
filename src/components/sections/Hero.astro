@@ -95,6 +95,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         }
       </footer>
     </div>
+    <a href="Sol" title="Modo Claro activado"><Sol/></a>
     <figure>
       <img src={image} alt={name} />
     </figure>
@@ -164,6 +165,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     border-radius: 6px;
     transition: all 0.3s ease;
 
+  }
+  a[href="Sol"]{
+    position: relative;
+    margin: left;
   }
 
   footer a:hover {
