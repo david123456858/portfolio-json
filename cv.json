@@ -266,7 +266,8 @@
         "Claves Dinamicas"
       ],
       "url": "https://github.com/david123456858/Cajero-Back",
-      "github": "https://github.com/david123456858/Cajero-Back"
+      "github": "https://github.com/david123456858/Cajero-Back",
+      "images":["/public/projects/cajero1.webp","/public/projects/cajero2.webp"]
     }
   ]
 }
